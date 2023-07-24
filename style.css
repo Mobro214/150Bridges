@@ -1,6 +1,6 @@
 :root {
   --light-blue: #47b2e4;
-  --dark-blue: #37517e;
+  --dark-blue: #376c7e;
   --white-color: #ffffff;
   --gray: #f3f5fa;
   --menu-bg-color: #6c757d;
@@ -574,8 +574,8 @@ li {
   color: rgb(249, 246, 246);
   display: flex;
   justify-content: center;
-  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)),
-    url(../Assets/img/cta/cta-bg.jpg) fixed center center;
+  background: linear-gradient(rgba(40, 58, 90, 0.663), rgba(40, 58, 90, 0.529)),
+    url(../Assets/img/cta/3.jpg) fixed center center;
   background-size: cover;
   width: 100%;
   margin: auto;
@@ -589,6 +589,7 @@ li {
 
 .cta p {
   font-size: larger;
+  font-weight: 900px;
 }
 
 .cta-container a {
@@ -1550,4 +1551,99 @@ width: 50px;
   padding: 10px;
 }
 }
+
+
+.cta2-container {
+  color: rgb(249, 246, 246);
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(rgba(40, 58, 90, 0.663), rgba(40, 58, 90, 0.529)),
+    url(../Assets/img/cta/2.jpg) fixed center center;
+  background-size: cover;
+  width: 100%;
+  margin: auto;
+  align-items: center;
+  padding: 120px 0;
+}
+
+.cta2 {
+  width: 57%;
+}
+
+.cta2 p {
+  font-size: larger;
+  font-weight: 900px;
+}
+
+.cta2-container a {
+  text-decoration: none;
+  text-align: center;
+  color: aliceblue;
+  width: 250px;
+  padding: 15px 0;
+  border: 2px solid white;
+  border-radius: 30px;
+  color: white;
+}
+
+.cta2-container a:hover {
+  background-color: var(--light-blue);
+  color: white;
+  border: none;
+  transition: 0.8s;
+}
+
+.cta2 h3 {
+  font-weight: 700;
+  font-size: 28px;
+  padding-bottom: 1rem;
+}
+
+.cta3-container {
+  color: rgb(249, 246, 246);
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(rgba(40, 58, 90, 0.663), rgba(40, 58, 90, 0.529)),
+    url(../Assets/img/cta/4.jpg) fixed center center;
+  background-size: cover;
+  width: 100%;
+  margin: auto;
+  align-items: center;
+  padding: 120px 0;
+}
+
+.cta3 {
+  width: 57%;
+}
+
+.cta3 p {
+  font-size: larger;
+  font-weight: 900px;
+}
+
+.cta3-container a {
+  text-decoration: none;
+  text-align: center;
+  color: aliceblue;
+  width: 250px;
+  padding: 15px 0;
+  border: 2px solid white;
+  border-radius: 30px;
+  color: white;
+}
+
+.cta3-container a:hover {
+  background-color: var(--light-blue);
+  color: white;
+  border: none;
+  transition: 0.8s;
+}
+
+.cta3 h3 {
+  font-weight: 700;
+  font-size: 28px;
+  padding-bottom: 1rem;
+}
+
+
 
